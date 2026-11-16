@@ -1,0 +1,35 @@
+
+# Java / Spring Boot
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# Mac
+.DS_Store
+
+# Python
+venv/
+.venv/
+__pycache__/
+
+# AI models
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+
+# Generated videos and images
+*.mp4
+*.mov
+*.webm
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log

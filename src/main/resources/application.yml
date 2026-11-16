@@ -1,0 +1,33 @@
+server:
+  port: 8098
+
+spring:
+  application:
+    name: video-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mark_video
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+comfyui:
+  base-url: http://127.0.0.1:8188
+
+
+
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 55MB
+
+
+  tomcat:
+    max-http-form-post-size: 55MB
+    max-swallow-size: 55MB
